@@ -25,7 +25,7 @@ class BlogPost extends HTMLElement {
     const post = bySlug.get(slug);
 
     if (!post) {
-      document.title = "Post not found — Evergreen";
+      document.title = "Post not found — ignimbrites";
       this.innerHTML = `
         <section class="section"><div class="wrap article-wrap">
           <p class="eyebrow">404</p>
@@ -36,7 +36,7 @@ class BlogPost extends HTMLElement {
       return;
     }
 
-    document.title = `${post.title} — Evergreen`;
+    document.title = `${post.title} — ignimbrites`;
 
     const meta = [
       `<time datetime="${escapeHTML(post.date)}">${formatDate(post.date)}</time>`,

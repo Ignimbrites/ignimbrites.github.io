@@ -97,7 +97,7 @@ async function render() {
   const update = () => {
     // Set the title first; a rendered component (e.g. <blog-post>) may refine it
     // when it upgrades during the innerHTML assignment below.
-    document.title = `${baseTitle} — Evergreen`;
+    document.title = `${baseTitle} — ignimbrites`;
     main.innerHTML = content;
     window.scrollTo({ top: 0, left: 0, behavior: "instant" });
   };

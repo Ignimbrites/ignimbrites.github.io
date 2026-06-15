@@ -1,4 +1,4 @@
-# Evergreen
+# ignimbrites
 
 A complete, build-free, dependency-free website that runs straight from static
 files. No bundler, no `node_modules`, no compile step — just web platform
@@ -53,7 +53,7 @@ Notes:
 ## Project layout
 
 ```
-evergreen/
+ignimbrites/
 ├─ index.html          # the single shell + one module import
 ├─ 404.html            # static-host fallback for deep links
 ├─ data/
@@ -91,7 +91,7 @@ evergreen/
 
 ## Browser support
 
-Targets current evergreen browsers. The newest feature used —
+Targets current ignimbrites browsers. The newest feature used —
 **same-document view transitions** — is Baseline as of Chrome 111, Safari 18,
 and Firefox 144. Where transitions aren't supported, navigation still works; it
 just doesn't animate.
